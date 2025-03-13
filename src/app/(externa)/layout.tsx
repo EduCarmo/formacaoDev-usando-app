@@ -8,9 +8,9 @@ export default function Layout(props: any) {
       <div className="flex justify-center mt-[64px]">
         <div className="w-[1100px] py-7">
           <main>{props.children}</main>
-          <Rodape />
         </div>
       </div>
+      <Rodape />
     </div>
   );
 }

@@ -11,12 +11,14 @@ export default function Titulo({ texto, legenda, className }: TituloProps) {
             flex justify-center items-baseline gap-4
             ${className ?? ""}
         `}
+
     >
       <h3
         className="
                 text-3xl font-black
                 bg-clip-text text-transparent
                 bg-gradient-to-b from-zinc-200 to-zinc-400
+                mt-8
             "
       >
         {texto}
