@@ -1,6 +1,9 @@
 import {
+  IconApi,
   IconArrowsJoin2,
   IconBug,
+  IconChartDots3,
+  IconDatabase,
   IconLoader,
   IconRoute,
   IconRoute2,
@@ -28,11 +31,18 @@ export default function Page() {
           titulo="Rota Dinâmica #02"
           icone={<IconRoute2 />}
         />
-                <Exercicio
+        <Exercicio
           url="/paralelas"
           titulo="Rota Paralelas"
           icone={<IconArrowsJoin2 />}
         />
+        <Exercicio
+          url="/estado"
+          titulo="Usando um Estado"
+          icone={<IconDatabase />}
+        />
+        <Exercicio url="/dados" titulo="Usando API" icone={<IconApi />} />
+        <Exercicio url="/contexto/a" titulo="Usando Contexto" icone={<IconChartDots3 />} />
       </div>
     </div>
   );

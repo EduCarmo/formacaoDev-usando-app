@@ -1,8 +1,11 @@
 "use client";
 
 import {
+  IconApi,
   IconArrowsJoin2,
   IconBug,
+  IconChartDots3,
+  IconDatabase,
   IconLayoutDashboard,
   IconLoader,
   IconRoute,
@@ -53,6 +56,24 @@ export default function Menu() {
           texto="Rotas Paralelas"
           icone={<IconArrowsJoin2 />}
           selecionado={url === "/paralelas"}
+        />
+        <MenuItem
+          url="/estado"
+          texto="Usando Estado"
+          icone={<IconDatabase />}
+          selecionado={url === "/estado"}
+        />
+        <MenuItem
+          url="/dados"
+          texto="Usando API"
+          icone={<IconApi />}
+          selecionado={url === "/dados"}
+        />
+        <MenuItem
+          url="/contexto/a"
+          texto="Usando Contexto"
+          icone={<IconChartDots3 />}
+          selecionado={url === "/contexto/a" || url === "/contexto/b"}
         />
       </MenuGrupo>
     </nav>

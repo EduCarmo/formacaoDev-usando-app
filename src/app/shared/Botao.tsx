@@ -27,7 +27,8 @@ export default function Botao({
                 ${maior ? "px-5 py-3" : "px-3 py-1.5 text-sm"}
                 border border-zinc-600 rounded-lg text-sm
             `}
-      >
+        onClick={onclick}
+      > 
         {children}
       </button>
     );
