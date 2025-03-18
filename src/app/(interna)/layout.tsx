@@ -7,7 +7,7 @@ export default function Layout(props: any) {
     <div className="flex bg-zinc-900 min-h-screen">
       <aside
         className="
-        flex flex-col gap-10 bg-black w-72 p-7 
+        flex flex-col gap-10 bg-black w-72 p-7
       "
       >
         <Logo />

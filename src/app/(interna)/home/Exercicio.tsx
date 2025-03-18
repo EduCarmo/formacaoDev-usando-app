@@ -24,7 +24,7 @@ export default function Exercicio(props: ExericioProps) {
       <h3
         className="
         flex justify-center
-        bg-black w-full p-3
+        bg-black w-full p-3 text-center
       "
       >
         {props.titulo}
